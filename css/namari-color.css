@@ -37,7 +37,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Border Color */
 
-#banner .section-heading:before, .testimonial.classic footer:before {
+#banner, .testimonial.classic footer:before {
     background: #F18B15;
 }
 
@@ -54,7 +54,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Transparent Navigation Color on a Banner */
 
 #header nav a, #header i {
-    color:#111;
+    /* color:#111; */
 }
 
 
@@ -89,7 +89,7 @@ a:hover, #header.nav-solid nav a:hover {
     color:#fff;    
 }
 
-.section-heading h2:after {
+h2:after {
     background:#F18B15;
     content:"";
     display:block;
@@ -124,7 +124,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background-color: #000;
+    background: url("../images/banner-images/hero-earth.png") no-repeat center top;
     background-size:cover;
 }
 
@@ -164,17 +165,18 @@ body {
 
 #banner h1 {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size:62px;
-    line-height:60px;
-    font-weight:800;
-    color:#111;
+    font-size: 52px;
+    font-weight:600;
+    text-align: center;
+    color:#fff;
 }
 
-#banner h2 {
+#banner h3 {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size:18px;
-    font-weight:300;
-    color:#111;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color:#fff;
 }
 
 
@@ -184,14 +186,14 @@ body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 34px; 
     font-weight:700;
-    color:#111;
+    color:#000;
 }
 
 .section-subtitle {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     font-weight:300;
-    color:#9c9c9c;
+    color:#000;
 }
 
 /* Testimonial */
@@ -292,14 +294,15 @@ h6 {
 #banner .button {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size:16px;
-    color:#111;
+    color:#fff;
+    text-align: center;
 }
 
 
 /* Button Color */
 
 #banner .button {
-    border-color:#111;
+    border-color:#F18B15;
 }
 
 

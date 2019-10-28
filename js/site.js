@@ -11,6 +11,9 @@ $(document).ready(function () {
 		$.scrollUp();
 	}
 
+	/* Banner button scroll */
+	const btn = document.getElementById('elem');
+
 	/*Responsive Navigation*/
 	$("#nav-mobile").html($("#nav-main").html());
 	$("#nav-trigger span").on("click",function() {
