@@ -319,7 +319,8 @@ section {
 }
 
 .section-size {
-    height: 80vh;
+    /* TODO: this height messes with layout in various viewports */
+    /* min-height: 80vh; */ 
 }
 
 #expand-influence .section-subtitle{
@@ -328,7 +329,7 @@ section {
 }
 
 #expand-influence .placeholder-element {
-    height: 12.5vh;
+    height: 5vh;
 }
 
 /* --------- 2.1 Header --------- */
@@ -820,7 +821,7 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
+    padding-top: 25vh;
     padding-bottom: 100px;
 }
 
@@ -858,7 +859,6 @@ h6 {
 /*Icon Block*/
 .icon img {
     max-height: 75px;
-    float: right;
 }
 
 .icon-block {
@@ -2302,6 +2302,10 @@ blockquote {
         margin-right: -40px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    #banner-content.row {
+        padding-top: 15vh !important;
     }
 
     /*-----------------Sections-----------------*/
