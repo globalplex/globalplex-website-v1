@@ -327,6 +327,13 @@ section {
     padding-right: 30vw;
 }
 
+@media (max-width: 480px) {
+    #expand-influence .section-subtitle {
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+
 #expand-influence .placeholder-element {
     height: 5vh;
 }
