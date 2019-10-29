@@ -319,7 +319,7 @@ section {
 }
 
 .section-size {
-    height: 90vh;
+    min-height: 90vh;
 }
 
 #expand-influence .section-subtitle{
@@ -332,6 +332,10 @@ section {
         padding-left: unset;
         padding-right: unset;
     }
+}
+
+.placeholder-element {
+    height: 12.5vh;
 }
 
 #expand-influence .placeholder-element {
@@ -2169,10 +2173,10 @@ blockquote {
         margin:0;
         padding:0;
     }
-
+    /* 
     .section-size {
         height: auto;
-    }
+    } */
 
     .page-border, #scrollUp, #scrollUp:before {
         display:none;
