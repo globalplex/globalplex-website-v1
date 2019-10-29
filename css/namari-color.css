@@ -132,10 +132,27 @@ h2:after {
 #excel-in-life {
     background: url("../images/banner-images/excel-in-life.png") no-repeat center top;
     background-size:cover;
-    min-height: 80vh;
-    
+    background-position-y: -25px;
+    background-color: #F2F2EE;
+
 }
 
+#expand-influence {
+    background: url("../images/banner-images/expand-influence.png") no-repeat center top;
+    background-size:cover;
+}
+
+@media (max-width: 480px) {
+    #excel-in-life{
+        background: unset;
+        background-color: #F2F2EE
+    }
+}
+
+#excel-in-life h2::after {
+    width: 30px;
+    margin-left: 22vw;
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -143,7 +160,7 @@ h2:after {
 
 
 body {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size:15px;
     font-weight:normal;
     color:#111;
@@ -171,7 +188,7 @@ body {
 /* Banner Typography */
 
 #banner h1 {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 52px;
     font-weight:600;
     text-align: center;
@@ -179,7 +196,7 @@ body {
 }
 
 #banner h3 {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -190,14 +207,14 @@ body {
 /* Section Title and Subtitle */
 
 .section-title {
-    font-family: 'Miriam Libre', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 34px; 
     font-weight:700;
     color:#000;
 }
 
 .section-subtitle {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight:300;
     color:#000;
@@ -206,7 +223,7 @@ body {
 /* Testimonial */
 
 .testimonial q {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 17px; 
     font-weight:300;
 }
@@ -219,42 +236,42 @@ body {
 /* Standard Headings h1-h6 */
 
 h1 {
-    font-family: 'Miriam Libre', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 40px; 
     font-weight:300;
     color:#111;
 }
 
 h2 {
-    font-family: 'Miriam Libre', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 34px; 
     font-weight:300;
     color:#111;
 }
 
 h3 {
-    font-family: 'Miriam Libre', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 30px; 
     font-weight:700;
     color:#111;
 }
 
 h4 {
-    font-family: 'Miriam Libre', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 18px; 
     font-weight:400;
     color:#111;
 }
 
 h5 {
-    font-family: 'Miriam Libre', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 16px; 
     font-weight:400;
     color:#111;
 }
 
 h6 {
-    font-family: 'Miriam Libre', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 14px; 
     font-weight:400;
     color:#111;
@@ -271,7 +288,7 @@ h6 {
 /* Button Text */
 
 .button, input[type="submit"]  {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size:14px;
     font-weight:bold;
     color:#111;
@@ -299,7 +316,7 @@ h6 {
 /* Button Text */
 
 #banner .button {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size:16px;
     color:#fff;
     text-align: center;
@@ -326,15 +343,14 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer, #landing-footer p, #landing-footer a {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size:12px;
-    font-weight:bold;
-    color:#ccc;
-    background-color: #000;
+    font-weight:normal;
+    color:#999;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-    color:#ccc;
+    color:#999;
 }
