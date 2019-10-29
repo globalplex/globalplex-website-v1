@@ -861,6 +861,16 @@ h6 {
     max-height: 75px;
 }
 
+#excel-in-life .icon img{
+    float: unset;
+    margin-bottom: -18px;
+}
+
+#expand-influence .icon img{
+    float: unset;
+    margin-bottom: -18px;
+}
+
 .icon-block {
     position: relative;
 }
@@ -1442,8 +1452,7 @@ blockquote {
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
