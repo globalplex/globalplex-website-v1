@@ -136,7 +136,7 @@ h2:after {
 
 
 body {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size:15px;
     font-weight:normal;
     color:#111;
@@ -164,7 +164,7 @@ body {
 /* Banner Typography */
 
 #banner h1 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 52px;
     font-weight:600;
     text-align: center;
@@ -172,7 +172,7 @@ body {
 }
 
 #banner h3 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -183,14 +183,14 @@ body {
 /* Section Title and Subtitle */
 
 .section-title {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 34px; 
     font-weight:700;
     color:#000;
 }
 
 .section-subtitle {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 22px;
     font-weight:300;
     color:#000;
@@ -199,7 +199,7 @@ body {
 /* Testimonial */
 
 .testimonial q {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: 17px; 
     font-weight:300;
 }
@@ -212,42 +212,42 @@ body {
 /* Standard Headings h1-h6 */
 
 h1 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 40px; 
     font-weight:300;
     color:#111;
 }
 
 h2 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 34px; 
     font-weight:300;
     color:#111;
 }
 
 h3 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 30px; 
     font-weight:700;
     color:#111;
 }
 
 h4 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 18px; 
     font-weight:400;
     color:#111;
 }
 
 h5 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 16px; 
     font-weight:400;
     color:#111;
 }
 
 h6 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 14px; 
     font-weight:400;
     color:#111;
@@ -264,7 +264,7 @@ h6 {
 /* Button Text */
 
 .button, input[type="submit"]  {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size:14px;
     font-weight:bold;
     color:#111;
@@ -292,7 +292,7 @@ h6 {
 /* Button Text */
 
 #banner .button {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size:16px;
     color:#fff;
     text-align: center;
@@ -319,14 +319,15 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer, #landing-footer p, #landing-footer a {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size:12px;
-    font-weight:normal;
-    color:#999;
+    font-weight:bold;
+    color:#ccc;
+    background-color: #000;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-    color:#999;
+    color:#ccc;
 }
