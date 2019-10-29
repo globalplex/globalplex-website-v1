@@ -129,6 +129,13 @@ h2:after {
     background-size:cover;
 }
 
+#excel-in-life {
+    background: url("../images/banner-images/excel-in-life.png") no-repeat center top;
+    background-size:cover;
+    min-height: 80vh;
+    
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
