@@ -314,6 +314,23 @@ section {
     width: 38.2%;
 }
 
+.fullscreen {
+    min-height: 100vh;
+}
+
+.section-size {
+    height: 80vh;
+}
+
+#expand-influence .section-subtitle{
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+.placeholder-element {
+    height: 12.5vh;
+}
+
 /* --------- 2.1 Header --------- */
 
 #header {
@@ -368,7 +385,7 @@ section {
 }
 
 #logo img {
-    max-height: 52px;
+    max-height: 50px;
     vertical-align: middle;
     margin-right: 15px;
 }
@@ -790,6 +807,10 @@ h6 {
     padding-bottom: 0;
 }
 
+.right-side {
+    text-align: right;
+}
+
 /*------------------------------------------------------------------------------------------*/
 /* 4. Banner */
 /*------------------------------------------------------------------------------------------*/
@@ -838,6 +859,16 @@ h6 {
 .icon img {
     max-height: 75px;
     float: right;
+}
+
+#excel-in-life .icon img{
+    float: unset;
+    margin-bottom: -18px;
+}
+
+#expand-influence .icon img{
+    float: unset;
+    margin-bottom: -18px;
 }
 
 .icon-block {
@@ -2132,6 +2163,10 @@ blockquote {
     #wrapper {
         margin:0;
         padding:0;
+    }
+
+    .section-size {
+        height: auto;
     }
 
     .page-border, #scrollUp, #scrollUp:before {
