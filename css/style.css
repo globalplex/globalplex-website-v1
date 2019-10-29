@@ -327,7 +327,7 @@ section {
     padding-right: 30vw;
 }
 
-#expand-influence .placeholder-element {
+.placeholder-element {
     height: 12.5vh;
 }
 
@@ -859,6 +859,16 @@ h6 {
 .icon img {
     max-height: 75px;
     float: right;
+}
+
+#excel-in-life .icon img{
+    float: unset;
+    margin-bottom: -18px;
+}
+
+#expand-influence .icon img{
+    float: unset;
+    margin-bottom: -18px;
 }
 
 .icon-block {
