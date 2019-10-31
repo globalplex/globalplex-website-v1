@@ -323,10 +323,13 @@ section {
     min-height: 90vh;
 }
 
-/* #expand-influence .section-subtitle{
-    padding-left: 20vw;
-    padding-right: 20vw;
-} */
+#excel-in-life .section-heading {
+    /* text-align: right; */
+    background-color: white;
+    border: 2px solid black;
+    padding: 2em 2em 2em 2em !important;
+    margin-left: 15vw;
+}
 
 @media (max-width: 480px) {
     #expand-influence .section-subtitle {

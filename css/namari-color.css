@@ -158,10 +158,9 @@ h2:after {
     }
 }
 
-#excel-in-life h2::after {
-    width: 30px;
-    /* margin-left: 22vw; */
-}
+/* #excel-in-life h2::after {
+    width: 100%;
+} */
 
 #testimonials {
     background: #F2F2EE;
@@ -182,7 +181,9 @@ h2:after {
 #contact h3 {
     font-family: 'Montserrat', Helvetica, sans-serif;
     color: #fff;
-    font-size: 30px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 45px;
 }
 
 #contact h4 {
