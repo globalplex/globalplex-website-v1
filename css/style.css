@@ -1004,8 +1004,8 @@ h6 {
   }
 
 .testimonial {
-    padding: 15px;
-    margin: 5px;
+    padding: 30px 25px 30px 30px;
+    margin: 5px 20px;
 }
 
 blockquote {
@@ -1030,6 +1030,7 @@ blockquote {
 
 .testimonial.classic q {
     display: block;
+    text-align: left;
 }
 
 .testimonial.classic footer:before {

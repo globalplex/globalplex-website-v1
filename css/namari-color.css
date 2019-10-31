@@ -103,6 +103,10 @@ h2:after {
     margin:30px auto 25px auto;
 }
 
+#testimonials .section-heading h2::after{
+    margin: 30px auto -20px auto !important;
+}
+
 /* Primary Icon Colors */
 
 .primary-color .icon i, .primary-color i {
@@ -260,9 +264,17 @@ body {
 
 /* Testimonial */
 
+.testimonial p {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 15px; 
+    font-weight:700; 
+    text-align: left;
+    margin: 0 0 5px 0!important;
+}
+
 .testimonial q {
     font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 17px; 
+    font-size: 15px; 
     font-weight:300;
 }
 
