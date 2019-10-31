@@ -140,6 +140,11 @@ h2:after {
     background-size: cover;
 }
 
+#banner-content mark {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
 mark {
     background-color: white;
 }
