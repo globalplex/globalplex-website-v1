@@ -54,7 +54,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Transparent Navigation Color on a Banner */
 
 #header nav a, #header i {
-    /* color:#111; */
+    color:#F18B15;
+    font-weight: bold;
 }
 
 
@@ -124,9 +125,19 @@ h2:after {
 /* Banner Background and Text Colors */
 
 #banner {
-    background-color: #000;
-    background: url("../images/banner-images/hero-earth.png") no-repeat center top;
-    background-size:cover;
+    background: url("../images/banner-images/hero-graphic.png") no-repeat right bottom;
+    background-color: #2B2B2B;
+    background-size: auto;
+}
+
+/* Site sections customization */
+#equipping {
+    background: url("../images/banner-images/skills.png") no-repeat right bottom;
+    background-size: auto;
+}
+
+#equipping mark {
+    background-color: white;
 }
 
 #excel-in-life {
@@ -136,8 +147,6 @@ h2:after {
     background-color: #F2F2EE;
 }
 
-
-/* Site sections customization */
 #expand-influence {
     background: url("../images/banner-images/expand-influence.png") no-repeat center top;
     background-size:cover;
@@ -160,26 +169,25 @@ h2:after {
 }
 
 #contact {
-    background-color: #000;
-    background: url("../images/banner-images/footer.png") no-repeat center top;
+    background-color: #2B2B2B;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;    
-    min-height: 25vh;
-}
-
-#contact .section-heading{
-    margin: auto;
-    display: inline-block;
-    width: 50%;
 }
 
 #contact .section-title{
     color: #fff;
 }
 
+#contact h3 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+
 #contact h4 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
     color: #fff;
 }
 
@@ -217,18 +225,18 @@ body {
 /* Banner Typography */
 
 #banner h1 {
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 52px;
+    font-family: 'Miriam Libre', Helvetica, sans-serif;
+    font-size: 60px;
     font-weight:600;
-    text-align: center;
-    color:#fff;
+    text-align: left;
+    color:#F18B15;
 }
 
 #banner h3 {
     font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     color:#fff;
 }
 
