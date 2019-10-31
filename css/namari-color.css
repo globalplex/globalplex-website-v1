@@ -131,7 +131,8 @@ h2:after {
 #banner {
     background: url("../images/banner-images/hero-graphic.png") no-repeat right bottom;
     background-color: #2B2B2B;
-    background-size: auto;
+    background-size: 55%;
+    background-position-y: 80%;
 }
 
 /* Site sections customization */
