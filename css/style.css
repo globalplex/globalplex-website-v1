@@ -319,13 +319,14 @@ section {
 }
 
 .section-size {
-    min-height: 75vh;
+    /* reverting back to 90 as otherwise the sections look different frm each other */
+    min-height: 90vh;
 }
 
-#expand-influence .section-subtitle{
+/* #expand-influence .section-subtitle{
     padding-left: 20vw;
     padding-right: 20vw;
-}
+} */
 
 @media (max-width: 480px) {
     #expand-influence .section-subtitle {
@@ -338,9 +339,9 @@ section {
     height: 12.5vh;
 }
 
-#expand-influence .placeholder-element {
+/* #expand-influence .placeholder-element {
     height: 5vh;
-}
+} */
 
 /* --------- 2.1 Header --------- */
 

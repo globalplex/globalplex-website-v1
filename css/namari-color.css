@@ -141,15 +141,14 @@ h2:after {
 }
 
 #excel-in-life {
-    background: url("../images/banner-images/excel-in-life.png") no-repeat center top;
-    background-size:cover;
-    background-position-y: -25px;
+    background: url("../images/banner-images/excel-in-life.png") no-repeat left bottom;
+    background-size: cover;
     background-color: #F2F2EE;
 }
 
 #expand-influence {
     background: url("../images/banner-images/expand-influence.png") no-repeat center top;
-    background-size:cover;
+    background-size: cover;
 }
 
 @media (max-width: 480px) {
@@ -226,18 +225,20 @@ body {
 
 #banner h1 {
     font-family: 'Miriam Libre', Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     font-weight:600;
     text-align: left;
     color:#F18B15;
+    letter-spacing: 0.07em;
 }
 
 #banner h3 {
     font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 400;
     text-align: left;
     color:#fff;
+    letter-spacing: 0.01em;
 }
 
 
@@ -252,7 +253,6 @@ body {
 
 .section-subtitle {
     font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 22px;
     font-weight:300;
     color:#000;
 }
