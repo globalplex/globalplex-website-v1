@@ -133,7 +133,7 @@ h2:after {
 /* Site sections customization */
 #equipping {
     background: url("../images/banner-images/skills.png") no-repeat right bottom;
-    background-size: auto;
+    background-size: cover;
 }
 
 #equipping mark {
