@@ -319,12 +319,16 @@ section {
 }
 
 .section-size {
-    min-height: 75vh;
+    /* reverting back to 90 as otherwise the sections look different frm each other */
+    min-height: 90vh;
 }
 
-#expand-influence .section-subtitle{
-    padding-left: 20vw;
-    padding-right: 20vw;
+#excel-in-life .section-heading {
+    /* text-align: right; */
+    background-color: white;
+    border: 2px solid black;
+    padding: 2em 2em 2em 2em !important;
+    margin-left: 15vw;
 }
 
 @media (max-width: 480px) {
@@ -338,9 +342,9 @@ section {
     height: 12.5vh;
 }
 
-#expand-influence .placeholder-element {
+/* #expand-influence .placeholder-element {
     height: 5vh;
-}
+} */
 
 /* --------- 2.1 Header --------- */
 
