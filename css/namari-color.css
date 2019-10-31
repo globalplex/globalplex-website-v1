@@ -134,7 +134,6 @@ h2:after {
     background-size:cover;
     background-position-y: -25px;
     background-color: #F2F2EE;
-    min-height: 70vh;
 }
 
 
@@ -163,7 +162,10 @@ h2:after {
 #contact {
     background-color: #000;
     background: url("../images/banner-images/footer.png") no-repeat center top;
-    background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
     min-height: 25vh;
 }
 

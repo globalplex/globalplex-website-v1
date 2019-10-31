@@ -319,13 +319,23 @@ section {
 }
 
 .section-size {
-    /* TODO: this height messes with layout in various viewports */
-    /* min-height: 80vh; */ 
+    min-height: 75vh;
 }
 
 #expand-influence .section-subtitle{
-    padding-left: 30vw;
-    padding-right: 30vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+@media (max-width: 480px) {
+    #expand-influence .section-subtitle {
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+
+.placeholder-element {
+    height: 12.5vh;
 }
 
 #expand-influence .placeholder-element {
@@ -821,7 +831,7 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 25vh;
+    padding-top: 30vh;
     padding-bottom: 100px;
 }
 
@@ -2163,10 +2173,10 @@ blockquote {
         margin:0;
         padding:0;
     }
-
+    /* 
     .section-size {
         height: auto;
-    }
+    } */
 
     .page-border, #scrollUp, #scrollUp:before {
         display:none;
@@ -2210,7 +2220,7 @@ blockquote {
     }
 
     #banner-content.row {
-        padding-top: 85px !important;
+        padding-top: 15vh !important;
     }
 
     /*-----------------Sections-----------------*/
@@ -2314,7 +2324,7 @@ blockquote {
     }
 
     #banner-content.row {
-        padding-top: 15vh !important;
+        padding-top: 20vh !important;
     }
 
     /*-----------------Sections-----------------*/
