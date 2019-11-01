@@ -54,7 +54,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Transparent Navigation Color on a Banner */
 
 #header nav a, #header i {
-    color:#F18B15;
+    color:#fff;
     font-weight: bold;
 }
 
@@ -130,13 +130,14 @@ h2:after {
 
 #banner {
     background: url("../images/banner-images/hero-graphic.png") no-repeat right bottom;
-    background-color: #2B2B2B;
-    background-size: auto;
+    background-color: #1E1E19;
+    background-size: 55%;
+    background-position-y: 80%;
 }
 
 /* Site sections customization */
 #equipping {
-    background: url("../images/banner-images/skills.png") no-repeat right bottom;
+    background: url("../images/banner-images/equipping.png") no-repeat right bottom;
     background-size: cover;
 }
 
@@ -161,9 +162,28 @@ mark {
 }
 
 @media (max-width: 480px) {
-    #excel-in-life{
-        background: unset;
-        background-color: #F2F2EE
+    #banner {
+        background-size: 55%;
+        background-position-y: 95%;
+    }
+
+    #equipping {
+        background: url("../images/banner-images/equipping-mobile.png") no-repeat center;
+        background-size: 100%;
+        background-position-y: 28%;
+        background-position-x: 100%;
+    }
+
+    #excel-in-life {
+        background: url("../images/banner-images/excel-in-life-mobile.png") no-repeat left bottom;
+        background-size: 110%;
+        background-color: #F2F2EE;
+    }
+
+    #expand-influence {
+        background: url("../images/banner-images/expand-influence-mobile.png") no-repeat center;
+        background-size: 100%;
+        background-position-y: 33%;
     }
 }
 
@@ -398,7 +418,7 @@ h6 {
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
 
-#landing-footer, #landing-footer p, #landing-footer a {
+#landing-footer, #landing-footer p{
     font-family: 'Montserrat', Helvetica, sans-serif;
     font-size:16px;
     font-weight:bold;

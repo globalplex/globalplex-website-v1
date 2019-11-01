@@ -331,10 +331,34 @@ section {
     margin-left: 15vw;
 }
 
+#excel-in-life .web{
+    display: block;
+}
+
+#excel-in-life .mobile{
+    display: none;
+}
+
 @media (max-width: 480px) {
-    #expand-influence .section-subtitle {
-        padding-left: unset;
-        padding-right: unset;
+    #equipping .section-heading{
+        margin-bottom: 40%;
+    }
+
+    #excel-in-life .web{
+        display: none;
+    }
+
+    #excel-in-life .mobile{
+        display: block;
+        padding-bottom: 25vh !important;
+    }
+
+    #excel-in-life .mobile .section-heading{
+        margin-left: unset;
+    }
+
+    #expand-influence .section-heading {
+        margin-bottom: 68%;
     }
 }
 
@@ -1587,6 +1611,17 @@ blockquote {
 
 #landing-footer p {
     margin: 0;
+}
+
+#landing-footer .invis {
+    font-size: 8px;
+    font-weight: 100;
+    padding-top: 0px;
+    color: #ccc;
+}
+
+#landing-footer .invis  a:link {
+    color:inherit;
 }
 
 #landing-footer ul {
