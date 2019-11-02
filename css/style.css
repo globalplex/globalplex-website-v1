@@ -328,7 +328,7 @@ section {
     background-color: white;
     border: 2px solid black;
     padding: 2em 2em 2em 2em !important;
-    margin-left: 15vw;
+    /* margin-left: 15vw; */
 }
 
 #excel-in-life .web{
@@ -895,7 +895,7 @@ h6 {
 }
 
 #excel-in-life .icon img{
-    float: unset;
+    float: right;
     margin-bottom: -18px;
 }
 

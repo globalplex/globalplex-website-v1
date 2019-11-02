@@ -151,7 +151,7 @@ mark {
 }
 
 #excel-in-life {
-    background: url("../images/banner-images/excel-in-life.png") no-repeat left bottom;
+    background: url("../images/banner-images/excel-in-life.png") no-repeat right bottom;
     background-size: cover;
     background-color: #F2F2EE;
 }
@@ -279,7 +279,7 @@ body {
     font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 34px; 
     font-weight:700;
-    color:#F18B15;
+    color:#F6B56D;
 }
 
 .section-title mark{
