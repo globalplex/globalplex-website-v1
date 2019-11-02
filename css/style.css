@@ -899,6 +899,13 @@ h6 {
     margin-bottom: -18px;
 }
 
+@media (max-width: 480px) {
+    #excel-in-life .icon img{
+        float: unset;
+        margin-bottom: 10px;
+    }
+}
+
 #expand-influence .icon img{
     float: unset;
     margin-bottom: -18px;
