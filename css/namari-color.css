@@ -41,10 +41,6 @@ a:hover, #header.nav-solid nav a:hover {
     background: #F18B15;
 }
 
-.pricing-block-content:hover {
-    border-color:#F18B15;
-}
-
 
 /*------------------------------------------------------------------------------------------*/
 /* 2. Navigation */
@@ -283,7 +279,7 @@ body {
     font-family: 'Miriam Libre', Helvetica, sans-serif;
     font-size: 34px; 
     font-weight:700;
-    color:#000;
+    color:#F18B15;
 }
 
 .section-title mark{
