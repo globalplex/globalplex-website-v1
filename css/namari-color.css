@@ -138,12 +138,16 @@ h2:after {
 /* Site sections customization */
 #equipping {
     background: url("../images/banner-images/equipping.png") no-repeat right bottom;
-    background-size: cover;
+    background-size: 85%;
 }
 
 #banner-content mark {
-    background-color: #2b2b2b;
+    background-color: #1E1E19;
     color: #fff;
+}
+
+#banner-content h3 b{
+    color: #F18B15;
 }
 
 mark {
@@ -280,6 +284,10 @@ body {
     font-size: 34px; 
     font-weight:700;
     color:#000;
+}
+
+.section-title mark{
+    background-color: #F18B15;
 }
 
 .section-subtitle {
