@@ -332,11 +332,15 @@ section {
 }
 
 
-#excel-in-life, #equipping .web{
+#excel-in-life .web{
     display: block;
 }
 
-#excel-in-life, #equipping .mobile{
+#equipping .web {
+    display: block
+}
+
+#excel-in-life .mobile{
     display: none;
 }
 
@@ -1067,6 +1071,10 @@ blockquote {
 .testimonial.classic q {
     display: block;
     text-align: left;
+}
+
+.testimonial.classic q {
+    margin-bottom: 20px;
 }
 
 .testimonial.classic footer:before {
