@@ -331,15 +331,20 @@ section {
     /* margin-left: 15vw; */
 }
 
-#excel-in-life .web{
+
+#excel-in-life, #equipping .web{
     display: block;
 }
 
-#excel-in-life .mobile{
+#excel-in-life, #equipping .mobile{
     display: none;
 }
 
 @media (max-width: 480px) {
+    #equipping .web {
+        display: none;
+    }
+
     #equipping .section-heading{
         margin-bottom: 40%;
     }

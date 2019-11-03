@@ -82,6 +82,14 @@ a:hover, #header.nav-solid nav a:hover {
     background-color:#F18B15;
 }
 
+.highlight {
+    color: #F18B15;
+}
+
+.gray-out {
+    color: #ccc;
+}
+
 .primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
     color:#fff;    
 }
@@ -133,8 +141,8 @@ h2:after {
 
 /* Site sections customization */
 #equipping {
-    background: url("../images/banner-images/equipping.png") no-repeat right bottom;
-    background-size: 85%;
+    background: url("../images/banner-images/equipping-mobile.png") no-repeat left bottom;
+    background-size: 50%;
 }
 
 #banner-content mark {
