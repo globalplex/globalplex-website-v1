@@ -1,4 +1,4 @@
 # Globalplex Web
 Repo for Globalplex homepage
 
-Dev changes viewable at http://bowenchin.com/globalplex-website/
+Master branch will automatically be pushed to globalplex.org
