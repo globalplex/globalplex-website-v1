@@ -1,4 +1,7 @@
 # Globalplex Web
 Repo for Globalplex homepage
 
-Master branch will automatically be pushed to globalplex.org
+Theme is based on https://onepagelove.com/namari
+
+Master branch will automatically be pushed live to www.globalplex.org
+
